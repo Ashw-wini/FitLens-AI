@@ -1,0 +1,203 @@
+[
+  {
+    "id": "prog001",
+    "name": "Full Body Beginner",
+    "difficulty": "beginner",
+    "daysPerWeek": 3,
+    "description": "A full body program perfect for beginners. Hit every muscle group each session with compound movements.",
+    "schedule": {
+      "day1": {
+        "label": "Full Body A",
+        "exercises": [
+          {"exerciseId": "ex002", "sets": 3, "reps": 12},
+          {"exerciseId": "ex004", "sets": 3, "reps": 10},
+          {"exerciseId": "ex005", "sets": 3, "reps": 10},
+          {"exerciseId": "ex003", "sets": 3, "reps": 12},
+          {"exerciseId": "ex008", "sets": 3, "reps": 1}
+        ]
+      },
+      "day2": {
+        "label": "Full Body B",
+        "exercises": [
+          {"exerciseId": "ex016", "sets": 3, "reps": 15},
+          {"exerciseId": "ex009", "sets": 3, "reps": 10},
+          {"exerciseId": "ex007", "sets": 3, "reps": 10},
+          {"exerciseId": "ex012", "sets": 3, "reps": 20},
+          {"exerciseId": "ex018", "sets": 3, "reps": 12}
+        ]
+      },
+      "day3": {
+        "label": "Full Body C",
+        "exercises": [
+          {"exerciseId": "ex002", "sets": 3, "reps": 15},
+          {"exerciseId": "ex004", "sets": 3, "reps": 12},
+          {"exerciseId": "ex011", "sets": 3, "reps": 15},
+          {"exerciseId": "ex017", "sets": 3, "reps": 20},
+          {"exerciseId": "ex013", "sets": 3, "reps": 20}
+        ]
+      }
+    }
+  },
+  {
+    "id": "prog002",
+    "name": "Push Pull Legs",
+    "difficulty": "intermediate",
+    "daysPerWeek": 6,
+    "description": "Classic PPL split. Push muscles one day, pull the next, then legs. Repeat twice per week for optimal volume.",
+    "schedule": {
+      "day1": {
+        "label": "Push Day",
+        "exercises": [
+          {"exerciseId": "ex004", "sets": 4, "reps": 12},
+          {"exerciseId": "ex007", "sets": 4, "reps": 10},
+          {"exerciseId": "ex011", "sets": 3, "reps": 15},
+          {"exerciseId": "ex010", "sets": 3, "reps": 10}
+        ]
+      },
+      "day2": {
+        "label": "Pull Day",
+        "exercises": [
+          {"exerciseId": "ex009", "sets": 4, "reps": 10},
+          {"exerciseId": "ex003", "sets": 4, "reps": 12},
+          {"exerciseId": "ex006", "sets": 4, "reps": 6},
+          {"exerciseId": "ex018", "sets": 3, "reps": 12}
+        ]
+      },
+      "day3": {
+        "label": "Leg Day",
+        "exercises": [
+          {"exerciseId": "ex001", "sets": 4, "reps": 8},
+          {"exerciseId": "ex005", "sets": 3, "reps": 12},
+          {"exerciseId": "ex016", "sets": 3, "reps": 15},
+          {"exerciseId": "ex017", "sets": 4, "reps": 20},
+          {"exerciseId": "ex019", "sets": 3, "reps": 1}
+        ]
+      },
+      "day4": {
+        "label": "Push Day",
+        "exercises": [
+          {"exerciseId": "ex004", "sets": 4, "reps": 15},
+          {"exerciseId": "ex007", "sets": 4, "reps": 10},
+          {"exerciseId": "ex011", "sets": 3, "reps": 15},
+          {"exerciseId": "ex010", "sets": 3, "reps": 12}
+        ]
+      },
+      "day5": {
+        "label": "Pull Day",
+        "exercises": [
+          {"exerciseId": "ex009", "sets": 4, "reps": 10},
+          {"exerciseId": "ex003", "sets": 4, "reps": 12},
+          {"exerciseId": "ex006", "sets": 4, "reps": 8},
+          {"exerciseId": "ex018", "sets": 3, "reps": 15}
+        ]
+      },
+      "day6": {
+        "label": "Leg Day",
+        "exercises": [
+          {"exerciseId": "ex001", "sets": 4, "reps": 10},
+          {"exerciseId": "ex005", "sets": 3, "reps": 12},
+          {"exerciseId": "ex016", "sets": 4, "reps": 15},
+          {"exerciseId": "ex017", "sets": 4, "reps": 20}
+        ]
+      }
+    }
+  },
+  {
+    "id": "prog003",
+    "name": "Upper Lower Split",
+    "difficulty": "intermediate",
+    "daysPerWeek": 4,
+    "description": "Alternate between upper body and lower body workouts. Great balance of volume and recovery.",
+    "schedule": {
+      "day1": {
+        "label": "Upper Body A",
+        "exercises": [
+          {"exerciseId": "ex004", "sets": 4, "reps": 12},
+          {"exerciseId": "ex009", "sets": 4, "reps": 10},
+          {"exerciseId": "ex007", "sets": 3, "reps": 10},
+          {"exerciseId": "ex003", "sets": 3, "reps": 12},
+          {"exerciseId": "ex011", "sets": 3, "reps": 15}
+        ]
+      },
+      "day2": {
+        "label": "Lower Body A",
+        "exercises": [
+          {"exerciseId": "ex001", "sets": 4, "reps": 8},
+          {"exerciseId": "ex006", "sets": 4, "reps": 6},
+          {"exerciseId": "ex005", "sets": 3, "reps": 12},
+          {"exerciseId": "ex017", "sets": 3, "reps": 20},
+          {"exerciseId": "ex008", "sets": 3, "reps": 1}
+        ]
+      },
+      "day3": {
+        "label": "Upper Body B",
+        "exercises": [
+          {"exerciseId": "ex004", "sets": 4, "reps": 15},
+          {"exerciseId": "ex009", "sets": 4, "reps": 10},
+          {"exerciseId": "ex010", "sets": 3, "reps": 10},
+          {"exerciseId": "ex003", "sets": 3, "reps": 15},
+          {"exerciseId": "ex018", "sets": 3, "reps": 12}
+        ]
+      },
+      "day4": {
+        "label": "Lower Body B",
+        "exercises": [
+          {"exerciseId": "ex002", "sets": 4, "reps": 15},
+          {"exerciseId": "ex016", "sets": 4, "reps": 15},
+          {"exerciseId": "ex005", "sets": 3, "reps": 12},
+          {"exerciseId": "ex019", "sets": 3, "reps": 1},
+          {"exerciseId": "ex012", "sets": 3, "reps": 20}
+        ]
+      }
+    }
+  },
+  {
+    "id": "prog004",
+    "name": "Home HIIT Workout",
+    "difficulty": "intermediate",
+    "daysPerWeek": 4,
+    "description": "High-intensity interval training with bodyweight exercises. No equipment needed. Great for fat loss.",
+    "schedule": {
+      "day1": {
+        "label": "HIIT Circuit A",
+        "exercises": [
+          {"exerciseId": "ex015", "sets": 4, "reps": 10},
+          {"exerciseId": "ex013", "sets": 4, "reps": 20},
+          {"exerciseId": "ex002", "sets": 4, "reps": 15},
+          {"exerciseId": "ex004", "sets": 4, "reps": 12},
+          {"exerciseId": "ex014", "sets": 4, "reps": 30}
+        ]
+      },
+      "day2": {
+        "label": "HIIT Circuit B",
+        "exercises": [
+          {"exerciseId": "ex020", "sets": 4, "reps": 30},
+          {"exerciseId": "ex005", "sets": 4, "reps": 12},
+          {"exerciseId": "ex008", "sets": 4, "reps": 1},
+          {"exerciseId": "ex016", "sets": 4, "reps": 15},
+          {"exerciseId": "ex012", "sets": 4, "reps": 20}
+        ]
+      },
+      "day3": {
+        "label": "HIIT Circuit C",
+        "exercises": [
+          {"exerciseId": "ex015", "sets": 3, "reps": 8},
+          {"exerciseId": "ex004", "sets": 3, "reps": 15},
+          {"exerciseId": "ex014", "sets": 3, "reps": 30},
+          {"exerciseId": "ex002", "sets": 3, "reps": 20},
+          {"exerciseId": "ex013", "sets": 3, "reps": 20}
+        ]
+      },
+      "day4": {
+        "label": "HIIT Circuit D",
+        "exercises": [
+          {"exerciseId": "ex020", "sets": 3, "reps": 30},
+          {"exerciseId": "ex010", "sets": 3, "reps": 10},
+          {"exerciseId": "ex005", "sets": 3, "reps": 15},
+          {"exerciseId": "ex018", "sets": 3, "reps": 12},
+          {"exerciseId": "ex008", "sets": 3, "reps": 1}
+        ]
+      }
+    }
+  }
+]

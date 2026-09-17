@@ -1,0 +1,182 @@
+[
+  {
+    "id": "ex001", "name": "Barbell Squat", "category": "legs",
+    "muscles": ["quadriceps", "glutes", "hamstrings", "core"],
+    "difficulty": "intermediate",
+    "instructions": "Stand with feet shoulder-width apart, barbell on upper back. Bend knees and hips to lower body until thighs are parallel to floor. Drive through heels to return to standing.",
+    "formCues": ["Keep chest up", "Knees track over toes", "Full depth to parallel", "Drive through heels", "Brace core"],
+    "defaultSets": 4, "defaultReps": 8, "caloriesPerRep": 0.5,
+    "poseAngles": {"primary": "hip-knee-ankle", "secondary": "hip-spine"}
+  },
+  {
+    "id": "ex002", "name": "Bodyweight Squat", "category": "legs",
+    "muscles": ["quadriceps", "glutes", "hamstrings"],
+    "difficulty": "beginner",
+    "instructions": "Stand with feet shoulder-width apart, arms extended forward. Lower your body by bending knees until thighs are parallel to floor. Push back up.",
+    "formCues": ["Keep weight on heels", "Chest stays up", "Knees don't cave in", "Go to parallel depth"],
+    "defaultSets": 3, "defaultReps": 15, "caloriesPerRep": 0.3,
+    "poseAngles": {"primary": "hip-knee-ankle", "secondary": "hip-spine"}
+  },
+  {
+    "id": "ex003", "name": "Bicep Curl", "category": "arms",
+    "muscles": ["biceps", "forearms"],
+    "difficulty": "beginner",
+    "instructions": "Stand with dumbbells at sides, palms facing forward. Curl weights toward shoulders by bending elbows. Slowly lower back down.",
+    "formCues": ["Keep elbows pinned to sides", "No swinging", "Full range of motion", "Control the negative"],
+    "defaultSets": 3, "defaultReps": 12, "caloriesPerRep": 0.15,
+    "poseAngles": {"primary": "shoulder-elbow-wrist"}
+  },
+  {
+    "id": "ex004", "name": "Push-Up", "category": "chest",
+    "muscles": ["chest", "triceps", "shoulders", "core"],
+    "difficulty": "beginner",
+    "instructions": "Start in plank position, hands shoulder-width apart. Lower chest to floor by bending elbows. Push back up to start.",
+    "formCues": ["Body in straight line", "Elbows at 45 degrees", "Full range of motion", "Don't flare elbows", "Core tight"],
+    "defaultSets": 3, "defaultReps": 15, "caloriesPerRep": 0.4,
+    "poseAngles": {"primary": "shoulder-elbow-wrist", "secondary": "hip-shoulder-ankle"}
+  },
+  {
+    "id": "ex005", "name": "Lunge", "category": "legs",
+    "muscles": ["quadriceps", "glutes", "hamstrings", "calves"],
+    "difficulty": "beginner",
+    "instructions": "Step forward with one leg, lowering hips until both knees are at 90 degrees. Push back to starting position. Alternate legs.",
+    "formCues": ["Front knee over ankle", "Back knee nearly touches floor", "Torso upright", "Step far enough forward"],
+    "defaultSets": 3, "defaultReps": 12, "caloriesPerRep": 0.35,
+    "poseAngles": {"primary": "hip-knee-ankle"}
+  },
+  {
+    "id": "ex006", "name": "Deadlift", "category": "back",
+    "muscles": ["hamstrings", "glutes", "lower back", "traps", "core"],
+    "difficulty": "intermediate",
+    "instructions": "Stand with feet hip-width apart, barbell over mid-foot. Hinge at hips, grip bar. Drive through floor, extending hips and knees simultaneously.",
+    "formCues": ["Neutral spine throughout", "Bar stays close to body", "Hinge at hips", "Drive hips forward at top", "Don't round lower back"],
+    "defaultSets": 4, "defaultReps": 6, "caloriesPerRep": 0.7,
+    "poseAngles": {"primary": "hip-spine", "secondary": "hip-knee-ankle"}
+  },
+  {
+    "id": "ex007", "name": "Shoulder Press", "category": "shoulders",
+    "muscles": ["deltoids", "triceps", "upper chest"],
+    "difficulty": "intermediate",
+    "instructions": "Hold dumbbells at shoulder height, palms forward. Press weights overhead until arms are fully extended. Lower back to shoulders.",
+    "formCues": ["Don't arch back excessively", "Core braced", "Full lockout overhead", "Controlled descent"],
+    "defaultSets": 3, "defaultReps": 10, "caloriesPerRep": 0.25,
+    "poseAngles": {"primary": "shoulder-elbow-wrist", "secondary": "hip-spine"}
+  },
+  {
+    "id": "ex008", "name": "Plank", "category": "core",
+    "muscles": ["core", "shoulders", "glutes"],
+    "difficulty": "beginner",
+    "instructions": "Start face down, forearms on floor. Lift body off floor, forming straight line from head to heels. Hold position.",
+    "formCues": ["Straight line from head to heels", "Don't let hips sag", "Don't pike hips up", "Engage core", "Breathe normally"],
+    "defaultSets": 3, "defaultReps": 1, "caloriesPerRep": 5,
+    "poseAngles": {"primary": "hip-shoulder-ankle"}
+  },
+  {
+    "id": "ex009", "name": "Bent-Over Row", "category": "back",
+    "muscles": ["lats", "rhomboids", "biceps", "rear delts"],
+    "difficulty": "intermediate",
+    "instructions": "Hinge at hips holding dumbbells. Pull weights to lower chest, squeezing shoulder blades. Lower under control.",
+    "formCues": ["Flat back", "Pull elbows back", "Squeeze at top", "Don't round spine"],
+    "defaultSets": 4, "defaultReps": 10, "caloriesPerRep": 0.3,
+    "poseAngles": {"primary": "shoulder-elbow-wrist", "secondary": "hip-spine"}
+  },
+  {
+    "id": "ex010", "name": "Tricep Dip", "category": "arms",
+    "muscles": ["triceps", "chest", "shoulders"],
+    "difficulty": "intermediate",
+    "instructions": "Grip parallel bars, arms straight. Lower body by bending elbows to 90 degrees. Push back up to straight arms.",
+    "formCues": ["Elbows stay close", "Lean slightly forward", "Full range of motion", "Don't shrug shoulders"],
+    "defaultSets": 3, "defaultReps": 10, "caloriesPerRep": 0.35,
+    "poseAngles": {"primary": "shoulder-elbow-wrist"}
+  },
+  {
+    "id": "ex011", "name": "Lateral Raise", "category": "shoulders",
+    "muscles": ["lateral deltoids"],
+    "difficulty": "beginner",
+    "instructions": "Stand with dumbbells at sides. Raise arms out to sides until parallel to floor. Lower slowly.",
+    "formCues": ["Slight bend in elbows", "Lead with elbows", "Don't go above shoulder height", "Control the weight"],
+    "defaultSets": 3, "defaultReps": 15, "caloriesPerRep": 0.1,
+    "poseAngles": {"primary": "shoulder-elbow-wrist"}
+  },
+  {
+    "id": "ex012", "name": "Crunches", "category": "core",
+    "muscles": ["rectus abdominis"],
+    "difficulty": "beginner",
+    "instructions": "Lie on back, knees bent, hands behind head. Curl upper body toward knees, lifting shoulders off floor. Lower back down.",
+    "formCues": ["Don't pull on neck", "Controlled movement", "Exhale on crunch", "Keep lower back on floor"],
+    "defaultSets": 3, "defaultReps": 20, "caloriesPerRep": 0.1,
+    "poseAngles": {"primary": "hip-spine"}
+  },
+  {
+    "id": "ex013", "name": "Mountain Climbers", "category": "cardio",
+    "muscles": ["core", "hip flexors", "shoulders", "quads"],
+    "difficulty": "beginner",
+    "instructions": "Start in push-up position. Drive one knee toward chest, then switch legs rapidly in a running motion.",
+    "formCues": ["Keep hips level", "Core tight", "Quick feet", "Hands under shoulders"],
+    "defaultSets": 3, "defaultReps": 20, "caloriesPerRep": 0.25,
+    "poseAngles": {"primary": "hip-shoulder-ankle"}
+  },
+  {
+    "id": "ex014", "name": "Jumping Jacks", "category": "cardio",
+    "muscles": ["full body", "calves", "shoulders"],
+    "difficulty": "beginner",
+    "instructions": "Stand with feet together, arms at sides. Jump, spreading feet apart and raising arms overhead. Jump back to start.",
+    "formCues": ["Land softly", "Full arm extension", "Rhythmic pace", "Keep core engaged"],
+    "defaultSets": 3, "defaultReps": 30, "caloriesPerRep": 0.15,
+    "poseAngles": {"primary": "hip-knee-ankle"}
+  },
+  {
+    "id": "ex015", "name": "Burpees", "category": "cardio",
+    "muscles": ["full body"],
+    "difficulty": "advanced",
+    "instructions": "From standing, squat down, place hands on floor, jump feet back to plank. Do a push-up, jump feet forward, then jump up with arms overhead.",
+    "formCues": ["Chest touches floor", "Full hip extension at top", "Land softly", "Maintain pace"],
+    "defaultSets": 3, "defaultReps": 10, "caloriesPerRep": 1.0,
+    "poseAngles": {"primary": "hip-knee-ankle", "secondary": "hip-shoulder-ankle"}
+  },
+  {
+    "id": "ex016", "name": "Glute Bridge", "category": "legs",
+    "muscles": ["glutes", "hamstrings", "core"],
+    "difficulty": "beginner",
+    "instructions": "Lie on back, knees bent, feet flat. Drive hips upward, squeezing glutes at top. Lower back down.",
+    "formCues": ["Squeeze glutes at top", "Don't hyperextend", "Drive through heels", "Keep core braced"],
+    "defaultSets": 3, "defaultReps": 15, "caloriesPerRep": 0.2,
+    "poseAngles": {"primary": "hip-knee-ankle"}
+  },
+  {
+    "id": "ex017", "name": "Calf Raise", "category": "legs",
+    "muscles": ["calves"],
+    "difficulty": "beginner",
+    "instructions": "Stand on edge of step or flat ground. Rise up on toes as high as possible. Lower back down slowly.",
+    "formCues": ["Full range of motion", "Pause at top", "Slow negative", "Don't bounce"],
+    "defaultSets": 3, "defaultReps": 20, "caloriesPerRep": 0.1,
+    "poseAngles": {"primary": "hip-knee-ankle"}
+  },
+  {
+    "id": "ex018", "name": "Superman Hold", "category": "back",
+    "muscles": ["lower back", "glutes", "upper back"],
+    "difficulty": "beginner",
+    "instructions": "Lie face down, arms extended forward. Lift arms, chest, and legs off floor simultaneously. Hold, then lower.",
+    "formCues": ["Squeeze glutes", "Look at floor", "Don't overextend neck", "Breathe steadily"],
+    "defaultSets": 3, "defaultReps": 12, "caloriesPerRep": 0.15,
+    "poseAngles": {"primary": "hip-spine"}
+  },
+  {
+    "id": "ex019", "name": "Wall Sit", "category": "legs",
+    "muscles": ["quadriceps", "glutes"],
+    "difficulty": "beginner",
+    "instructions": "Lean against wall, slide down until thighs are parallel to floor, knees at 90 degrees. Hold position.",
+    "formCues": ["Back flat against wall", "Knees at 90 degrees", "Don't put hands on thighs", "Breathe normally"],
+    "defaultSets": 3, "defaultReps": 1, "caloriesPerRep": 4,
+    "poseAngles": {"primary": "hip-knee-ankle"}
+  },
+  {
+    "id": "ex020", "name": "High Knees", "category": "cardio",
+    "muscles": ["hip flexors", "quads", "core", "calves"],
+    "difficulty": "beginner",
+    "instructions": "Stand in place. Run in place, driving knees up to hip height with each step. Pump arms for momentum.",
+    "formCues": ["Knees to hip height", "Stay on balls of feet", "Quick pace", "Pump arms"],
+    "defaultSets": 3, "defaultReps": 30, "caloriesPerRep": 0.2,
+    "poseAngles": {"primary": "hip-knee-ankle"}
+  }
+]
